@@ -34,6 +34,7 @@ This is package with static libezV24 libraries.
 
 %build
 sed -i -e 's#ldconfig##g' Makefile*
+sed -i -e 's#-W1,soname#-Wl,-soname#g' Makefile*
 sed -i -e 's#gcc#%{__cc}#g' Makefile*
 sed -i -e 's#LIBNAME = .*#LIBNAME = lib$(SOBASE).a#g' Makefile*
 %{__make} shared static
