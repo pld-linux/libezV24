@@ -1,4 +1,5 @@
-Summary:	an easy to use programming interface for Linux serial ports
+Summary:	An easy to use programming interface for Linux serial ports
+Summary(pl):	Prosty w u¿yciu interfejs programowy do linuksowych portów szeregowych
 Name:		libezV24
 Version:	0.1.1
 Release:	1
@@ -12,8 +13,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 An easy to use programming interface for Linux serial ports.
 
+%description -l pl
+Prosty w u¿yciu interfejs programowy do linuksowych portów
+szeregowych.
+
 %package devel
-Summary:	%{name} library headers
+Summary:	Header files for libezV24 library
+Summary(pl):	Pliki nag³ówkowe biblioteki libezV24
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
 
@@ -21,13 +27,21 @@ Requires:	%{name} = %{version}
 This package contains include files and other resources you can use to
 incorporate %{name} into applications.
 
+%description devel -l pl
+Ten pakiet zawiera pliki nag³ówkowe i inne zasoby przydatne przy
+u¿ywaniu libezV24 w aplikacjach.
+
 %package static
-Summary:	libezV24 static libraries
+Summary:	Static libezV24 library
+Summary(pl):	Statyczna biblioteka libezV24
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}
 
 %description static
-This is package with static libezV24 libraries.
+This package contains static libezV24 library.
+
+%description static -l pl
+Ten pakiet zawiera statyczn± bibliotekê libezV24.
 
 %prep
 %setup -q
