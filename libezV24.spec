@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://dl.sourceforge.net/ezv24/%{name}-%{version}.tar.gz
 # Source0-md5:	59a682a6ba5cce142760f7309dea44f9
 URL:		http://libezV24.sourceforge.net/
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
