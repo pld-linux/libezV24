@@ -22,7 +22,7 @@ szeregowych.
 Summary:	Header files for libezV24 library
 Summary(pl):	Pliki nag³ówkowe biblioteki libezV24
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 This package contains include files and other resources you can use to
@@ -36,7 +36,7 @@ u¿ywaniu libezV24 w aplikacjach.
 Summary:	Static libezV24 library
 Summary(pl):	Statyczna biblioteka libezV24
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 This package contains static libezV24 library.
