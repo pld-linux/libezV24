@@ -1,5 +1,5 @@
 Summary:	An easy to use programming interface for Linux serial ports
-Summary(pl):	Prosty w uøyciu interfejs programowy do linuksowych portÛw szeregowych
+Summary(pl.UTF-8):   Prosty w u≈ºyciu interfejs programowy do linuksowych port√≥w szeregowych
 Name:		libezV24
 Version:	0.1.1
 Release:	1
@@ -14,13 +14,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 An easy to use programming interface for Linux serial ports.
 
-%description -l pl
-Prosty w uøyciu interfejs programowy do linuksowych portÛw
+%description -l pl.UTF-8
+Prosty w u≈ºyciu interfejs programowy do linuksowych port√≥w
 szeregowych.
 
 %package devel
 Summary:	Header files for libezV24 library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libezV24
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libezV24
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -28,21 +28,21 @@ Requires:	%{name} = %{version}-%{release}
 This package contains include files and other resources you can use to
 incorporate %{name} into applications.
 
-%description devel -l pl
-Ten pakiet zawiera pliki nag≥Ûwkowe i inne zasoby przydatne przy
-uøywaniu libezV24 w aplikacjach.
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki nag≈Ç√≥wkowe i inne zasoby przydatne przy
+u≈ºywaniu libezV24 w aplikacjach.
 
 %package static
 Summary:	Static libezV24 library
-Summary(pl):	Statyczna biblioteka libezV24
+Summary(pl.UTF-8):   Statyczna biblioteka libezV24
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 This package contains static libezV24 library.
 
-%description static -l pl
-Ten pakiet zawiera statyczn± bibliotekÍ libezV24.
+%description static -l pl.UTF-8
+Ten pakiet zawiera statycznƒÖ bibliotekƒô libezV24.
 
 %prep
 %setup -q
