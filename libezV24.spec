@@ -1,5 +1,5 @@
 Summary:	An easy to use programming interface for Linux serial ports
-Summary(pl.UTF-8):   Prosty w użyciu interfejs programowy do linuksowych portów szeregowych
+Summary(pl.UTF-8):	Prosty w użyciu interfejs programowy do linuksowych portów szeregowych
 Name:		libezV24
 Version:	0.1.1
 Release:	1
@@ -20,7 +20,7 @@ szeregowych.
 
 %package devel
 Summary:	Header files for libezV24 library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libezV24
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libezV24
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -34,7 +34,7 @@ używaniu libezV24 w aplikacjach.
 
 %package static
 Summary:	Static libezV24 library
-Summary(pl.UTF-8):   Statyczna biblioteka libezV24
+Summary(pl.UTF-8):	Statyczna biblioteka libezV24
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
